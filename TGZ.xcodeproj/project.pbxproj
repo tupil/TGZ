@@ -14,6 +14,35 @@
 		B551DBBD148E77D500438CCF /* TGZ.framework in Resources */ = {isa = PBXBuildFile; fileRef = B551DBA5148E77D500438CCF /* TGZ.framework */; };
 		B551DBC3148E77D500438CCF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B551DBC1148E77D500438CCF /* InfoPlist.strings */; };
 		B551DBC6148E77D500438CCF /* TGZTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B551DBC5148E77D500438CCF /* TGZTests.m */; };
+		B551DBD5148E780D00438CCF /* TGZ.h in Headers */ = {isa = PBXBuildFile; fileRef = B551DBD3148E780D00438CCF /* TGZ.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B551DBD6148E780D00438CCF /* TGZ.m in Sources */ = {isa = PBXBuildFile; fileRef = B551DBD4148E780D00438CCF /* TGZ.m */; };
+		B551DBF4148E78A800438CCF /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = B551DBD9148E78A800438CCF /* config.h */; };
+		B551DBF5148E78A800438CCF /* libtar_hash.c in Sources */ = {isa = PBXBuildFile; fileRef = B551DBDA148E78A800438CCF /* libtar_hash.c */; };
+		B551DBF6148E78A800438CCF /* libtar_list.c in Sources */ = {isa = PBXBuildFile; fileRef = B551DBDB148E78A800438CCF /* libtar_list.c */; };
+		B551DBF7148E78A800438CCF /* libtar_listhash.h in Headers */ = {isa = PBXBuildFile; fileRef = B551DBDC148E78A800438CCF /* libtar_listhash.h */; };
+		B551DBF8148E78A800438CCF /* basename.c in Sources */ = {isa = PBXBuildFile; fileRef = B551DBDD148E78A800438CCF /* basename.c */; };
+		B551DBF9148E78A800438CCF /* compat.h in Headers */ = {isa = PBXBuildFile; fileRef = B551DBDE148E78A800438CCF /* compat.h */; };
+		B551DBFA148E78A800438CCF /* dirname.c in Sources */ = {isa = PBXBuildFile; fileRef = B551DBDF148E78A800438CCF /* dirname.c */; };
+		B551DBFB148E78A800438CCF /* fnmatch.c in Sources */ = {isa = PBXBuildFile; fileRef = B551DBE0148E78A800438CCF /* fnmatch.c */; };
+		B551DBFC148E78A800438CCF /* gethostname.c in Sources */ = {isa = PBXBuildFile; fileRef = B551DBE1148E78A800438CCF /* gethostname.c */; };
+		B551DBFD148E78A800438CCF /* inet_aton.c in Sources */ = {isa = PBXBuildFile; fileRef = B551DBE2148E78A800438CCF /* inet_aton.c */; };
+		B551DBFE148E78A800438CCF /* strdup.c in Sources */ = {isa = PBXBuildFile; fileRef = B551DBE3148E78A800438CCF /* strdup.c */; };
+		B551DBFF148E78A800438CCF /* strlcat.c in Sources */ = {isa = PBXBuildFile; fileRef = B551DBE4148E78A800438CCF /* strlcat.c */; };
+		B551DC00148E78A800438CCF /* strlcpy.c in Sources */ = {isa = PBXBuildFile; fileRef = B551DBE5148E78A800438CCF /* strlcpy.c */; };
+		B551DC01148E78A800438CCF /* strmode.c in Sources */ = {isa = PBXBuildFile; fileRef = B551DBE6148E78A800438CCF /* strmode.c */; };
+		B551DC02148E78A800438CCF /* strrstr.c in Sources */ = {isa = PBXBuildFile; fileRef = B551DBE7148E78A800438CCF /* strrstr.c */; };
+		B551DC03148E78A800438CCF /* strsep.c in Sources */ = {isa = PBXBuildFile; fileRef = B551DBE8148E78A800438CCF /* strsep.c */; };
+		B551DC04148E78A800438CCF /* append.c in Sources */ = {isa = PBXBuildFile; fileRef = B551DBE9148E78A800438CCF /* append.c */; };
+		B551DC05148E78A800438CCF /* block.c in Sources */ = {isa = PBXBuildFile; fileRef = B551DBEA148E78A800438CCF /* block.c */; };
+		B551DC06148E78A800438CCF /* decode.c in Sources */ = {isa = PBXBuildFile; fileRef = B551DBEB148E78A800438CCF /* decode.c */; };
+		B551DC07148E78A800438CCF /* encode.c in Sources */ = {isa = PBXBuildFile; fileRef = B551DBEC148E78A800438CCF /* encode.c */; };
+		B551DC08148E78A800438CCF /* extract.c in Sources */ = {isa = PBXBuildFile; fileRef = B551DBED148E78A800438CCF /* extract.c */; };
+		B551DC09148E78A800438CCF /* handle.c in Sources */ = {isa = PBXBuildFile; fileRef = B551DBEE148E78A800438CCF /* handle.c */; };
+		B551DC0A148E78A800438CCF /* internal.h in Headers */ = {isa = PBXBuildFile; fileRef = B551DBEF148E78A800438CCF /* internal.h */; };
+		B551DC0B148E78A800438CCF /* libtar.h in Headers */ = {isa = PBXBuildFile; fileRef = B551DBF0148E78A800438CCF /* libtar.h */; };
+		B551DC0C148E78A800438CCF /* output.c in Sources */ = {isa = PBXBuildFile; fileRef = B551DBF1148E78A800438CCF /* output.c */; };
+		B551DC0D148E78A800438CCF /* util.c in Sources */ = {isa = PBXBuildFile; fileRef = B551DBF2148E78A800438CCF /* util.c */; };
+		B551DC0E148E78A800438CCF /* wrapper.c in Sources */ = {isa = PBXBuildFile; fileRef = B551DBF3148E78A800438CCF /* wrapper.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,17 +57,46 @@
 
 /* Begin PBXFileReference section */
 		B551DBA5148E77D500438CCF /* TGZ.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TGZ.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B551DBA9148E77D500438CCF /* TGZ-Info.plist */ = {isa = PBXFileReference; path = "TGZ-Info.plist"; sourceTree = "<group>"; };
+		B551DBA9148E77D500438CCF /* TGZ-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TGZ-Info.plist"; sourceTree = "<group>"; };
 		B551DBAB148E77D500438CCF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		B551DBAD148E77D500438CCF /* TGZ-Prefix.pch */ = {isa = PBXFileReference; path = "TGZ-Prefix.pch"; sourceTree = "<group>"; };
+		B551DBAD148E77D500438CCF /* TGZ-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TGZ-Prefix.pch"; sourceTree = "<group>"; };
 		B551DBB3148E77D500438CCF /* TGZTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TGZTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B551DBB5148E77D500438CCF /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		B551DBB7148E77D500438CCF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		B551DBB9148E77D500438CCF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		B551DBC0148E77D500438CCF /* TGZTests-Info.plist */ = {isa = PBXFileReference; path = "TGZTests-Info.plist"; sourceTree = "<group>"; };
+		B551DBC0148E77D500438CCF /* TGZTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TGZTests-Info.plist"; sourceTree = "<group>"; };
 		B551DBC2148E77D500438CCF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		B551DBC4148E77D500438CCF /* TGZTests.h */ = {isa = PBXFileReference; path = TGZTests.h; sourceTree = "<group>"; };
+		B551DBC4148E77D500438CCF /* TGZTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TGZTests.h; sourceTree = "<group>"; };
 		B551DBC5148E77D500438CCF /* TGZTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TGZTests.m; sourceTree = "<group>"; };
+		B551DBD3148E780D00438CCF /* TGZ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGZ.h; sourceTree = "<group>"; };
+		B551DBD4148E780D00438CCF /* TGZ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGZ.m; sourceTree = "<group>"; };
+		B551DBD9148E78A800438CCF /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
+		B551DBDA148E78A800438CCF /* libtar_hash.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = libtar_hash.c; sourceTree = "<group>"; };
+		B551DBDB148E78A800438CCF /* libtar_list.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = libtar_list.c; sourceTree = "<group>"; };
+		B551DBDC148E78A800438CCF /* libtar_listhash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = libtar_listhash.h; sourceTree = "<group>"; };
+		B551DBDD148E78A800438CCF /* basename.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = basename.c; sourceTree = "<group>"; };
+		B551DBDE148E78A800438CCF /* compat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = compat.h; sourceTree = "<group>"; };
+		B551DBDF148E78A800438CCF /* dirname.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = dirname.c; sourceTree = "<group>"; };
+		B551DBE0148E78A800438CCF /* fnmatch.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fnmatch.c; sourceTree = "<group>"; };
+		B551DBE1148E78A800438CCF /* gethostname.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = gethostname.c; sourceTree = "<group>"; };
+		B551DBE2148E78A800438CCF /* inet_aton.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = inet_aton.c; sourceTree = "<group>"; };
+		B551DBE3148E78A800438CCF /* strdup.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = strdup.c; sourceTree = "<group>"; };
+		B551DBE4148E78A800438CCF /* strlcat.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = strlcat.c; sourceTree = "<group>"; };
+		B551DBE5148E78A800438CCF /* strlcpy.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = strlcpy.c; sourceTree = "<group>"; };
+		B551DBE6148E78A800438CCF /* strmode.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = strmode.c; sourceTree = "<group>"; };
+		B551DBE7148E78A800438CCF /* strrstr.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = strrstr.c; sourceTree = "<group>"; };
+		B551DBE8148E78A800438CCF /* strsep.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = strsep.c; sourceTree = "<group>"; };
+		B551DBE9148E78A800438CCF /* append.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = append.c; sourceTree = "<group>"; };
+		B551DBEA148E78A800438CCF /* block.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = block.c; sourceTree = "<group>"; };
+		B551DBEB148E78A800438CCF /* decode.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = decode.c; sourceTree = "<group>"; };
+		B551DBEC148E78A800438CCF /* encode.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = encode.c; sourceTree = "<group>"; };
+		B551DBED148E78A800438CCF /* extract.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = extract.c; sourceTree = "<group>"; };
+		B551DBEE148E78A800438CCF /* handle.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = handle.c; sourceTree = "<group>"; };
+		B551DBEF148E78A800438CCF /* internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = internal.h; sourceTree = "<group>"; };
+		B551DBF0148E78A800438CCF /* libtar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = libtar.h; sourceTree = "<group>"; };
+		B551DBF1148E78A800438CCF /* output.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = output.c; sourceTree = "<group>"; };
+		B551DBF2148E78A800438CCF /* util.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = util.c; sourceTree = "<group>"; };
+		B551DBF3148E78A800438CCF /* wrapper.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = wrapper.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +125,7 @@
 			children = (
 				B551DBA7148E77D500438CCF /* TGZ */,
 				B551DBBE148E77D500438CCF /* TGZTests */,
+				B551DBD7148E784D00438CCF /* Libraries */,
 				B551DBB4148E77D500438CCF /* Frameworks */,
 				B551DBA6148E77D500438CCF /* Products */,
 			);
@@ -84,6 +143,8 @@
 		B551DBA7148E77D500438CCF /* TGZ */ = {
 			isa = PBXGroup;
 			children = (
+				B551DBD3148E780D00438CCF /* TGZ.h */,
+				B551DBD4148E780D00438CCF /* TGZ.m */,
 				B551DBA8148E77D500438CCF /* Supporting Files */,
 			);
 			path = TGZ;
@@ -128,6 +189,48 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		B551DBD7148E784D00438CCF /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				B551DBD8148E785C00438CCF /* libtar */,
+			);
+			path = Libraries;
+			sourceTree = "<group>";
+		};
+		B551DBD8148E785C00438CCF /* libtar */ = {
+			isa = PBXGroup;
+			children = (
+				B551DBD9148E78A800438CCF /* config.h */,
+				B551DBDA148E78A800438CCF /* libtar_hash.c */,
+				B551DBDB148E78A800438CCF /* libtar_list.c */,
+				B551DBDC148E78A800438CCF /* libtar_listhash.h */,
+				B551DBDD148E78A800438CCF /* basename.c */,
+				B551DBDE148E78A800438CCF /* compat.h */,
+				B551DBDF148E78A800438CCF /* dirname.c */,
+				B551DBE0148E78A800438CCF /* fnmatch.c */,
+				B551DBE1148E78A800438CCF /* gethostname.c */,
+				B551DBE2148E78A800438CCF /* inet_aton.c */,
+				B551DBE3148E78A800438CCF /* strdup.c */,
+				B551DBE4148E78A800438CCF /* strlcat.c */,
+				B551DBE5148E78A800438CCF /* strlcpy.c */,
+				B551DBE6148E78A800438CCF /* strmode.c */,
+				B551DBE7148E78A800438CCF /* strrstr.c */,
+				B551DBE8148E78A800438CCF /* strsep.c */,
+				B551DBE9148E78A800438CCF /* append.c */,
+				B551DBEA148E78A800438CCF /* block.c */,
+				B551DBEB148E78A800438CCF /* decode.c */,
+				B551DBEC148E78A800438CCF /* encode.c */,
+				B551DBED148E78A800438CCF /* extract.c */,
+				B551DBEE148E78A800438CCF /* handle.c */,
+				B551DBEF148E78A800438CCF /* internal.h */,
+				B551DBF0148E78A800438CCF /* libtar.h */,
+				B551DBF1148E78A800438CCF /* output.c */,
+				B551DBF2148E78A800438CCF /* util.c */,
+				B551DBF3148E78A800438CCF /* wrapper.c */,
+			);
+			path = libtar;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -135,6 +238,12 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B551DBD5148E780D00438CCF /* TGZ.h in Headers */,
+				B551DBF4148E78A800438CCF /* config.h in Headers */,
+				B551DBF7148E78A800438CCF /* libtar_listhash.h in Headers */,
+				B551DBF9148E78A800438CCF /* compat.h in Headers */,
+				B551DC0A148E78A800438CCF /* internal.h in Headers */,
+				B551DC0B148E78A800438CCF /* libtar.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +382,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B551DBD6148E780D00438CCF /* TGZ.m in Sources */,
+				B551DBF5148E78A800438CCF /* libtar_hash.c in Sources */,
+				B551DBF6148E78A800438CCF /* libtar_list.c in Sources */,
+				B551DBF8148E78A800438CCF /* basename.c in Sources */,
+				B551DBFA148E78A800438CCF /* dirname.c in Sources */,
+				B551DBFB148E78A800438CCF /* fnmatch.c in Sources */,
+				B551DBFC148E78A800438CCF /* gethostname.c in Sources */,
+				B551DBFD148E78A800438CCF /* inet_aton.c in Sources */,
+				B551DBFE148E78A800438CCF /* strdup.c in Sources */,
+				B551DBFF148E78A800438CCF /* strlcat.c in Sources */,
+				B551DC00148E78A800438CCF /* strlcpy.c in Sources */,
+				B551DC01148E78A800438CCF /* strmode.c in Sources */,
+				B551DC02148E78A800438CCF /* strrstr.c in Sources */,
+				B551DC03148E78A800438CCF /* strsep.c in Sources */,
+				B551DC04148E78A800438CCF /* append.c in Sources */,
+				B551DC05148E78A800438CCF /* block.c in Sources */,
+				B551DC06148E78A800438CCF /* decode.c in Sources */,
+				B551DC07148E78A800438CCF /* encode.c in Sources */,
+				B551DC08148E78A800438CCF /* extract.c in Sources */,
+				B551DC09148E78A800438CCF /* handle.c in Sources */,
+				B551DC0C148E78A800438CCF /* output.c in Sources */,
+				B551DC0D148E78A800438CCF /* util.c in Sources */,
+				B551DC0E148E78A800438CCF /* wrapper.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
